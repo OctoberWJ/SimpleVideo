@@ -1,0 +1,63 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+#app{
+  margin:0 auto;
+  position: relative;
+  width: 1000px;
+  height: 540px;
+}
+video{
+  position: relative;
+  width: 960px;
+  height: 500px;
+}
+.bottom{
+  display: inline-block;
+  position: relative;
+
+}
+.divLeft{
+  width: 650px;
+  height: 30px;
+  /*display: inline-block;*/
+  /*float: left;*/
+}
+input{
+  display: inline-block;
+  border-radius: 5px;
+}
+.divRight{
+  display: inline-block;
+  position: relative;
+  left: 724px;
+  top: -26px;
+}
+#last,#next{
+  display: inline-block;
+  width: 67px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #000000;
+  color: #000000;
+}
+#getTime{
+  display: inline-block;
+  width: 90px;
+  height: 25px;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 5px;
+  text-align: center;
+}
+#img{
+  display: inline-block;
+  position: relative;
+  left: 9px;
+  top: 15px;
+}
+img{
+  width: 45px;
+}
